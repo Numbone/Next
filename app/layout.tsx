@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <TheHeader />
-        <main>{children}</main>
+        <main className="flex-1 container mx-auto">{children}</main>
         <TheFooter />
       </body>
     </html>
